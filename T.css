@@ -1,0 +1,29 @@
+/* Basic CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    text-align: center;
+}
+
+.menu-category {
+    margin-bottom: 20px;
+}
+
+.menu-category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-category li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}

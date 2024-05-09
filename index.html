@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Indian Restaurant Menu</h1>
+    </header>
+    <main>
+        <section class="menu-category">
+            <h2>Appetizers</h2>
+            <ul>
+                <li>Samosa - $5.99</li>
+                <li>Pakora - $4.99</li>
+                <li>Paneer Tikka - $7.99</li>
+            </ul>
+        </section>
+        <section class="menu-category">
+            <h2>Main Course</h2>
+            <ul>
+                <li>Butter Chicken - $12.99</li>
+                <li>Palak Paneer - $10.99</li>
+                <li>Biryani - $11.99</li>
+            </ul>
+        </section>
+        <!-- Add more sections for other categories like Drinks, Desserts, etc. -->
+    </main>
+</body>
+</html>
+
+<body>
+    <header>
+        <h1>Indian Restaurant POS</h1>
+    </header>
+    <main>
+        <form id="orderForm">
+            <section class="menu-category">
+                <h2>Appetizers</h2>
+                <ul>
+                    <li class="menu-item"><label>Samosa - $5.99 <input type="number" min="0" data-item-name="Samosa" data-item-price="5.99"></label></li>
+                    <li class="menu-item"><label>Pakora - $4.99 <input type="number" min="0" data-item-name="Pakora" data-item-price="4.99"></label></li>
+                    <li class="menu-item"><label>Paneer Tikka - $7.99 <input type="number" min="0" data-item-name="Paneer Tikka" data-item-price="7.99"></label></li>
+                </ul>
+            </section>
+            <section class="menu-category">
+                <h2>Main Course</h2>
+                <ul>
+                    <li class="menu-item"><label>Butter Chicken - $12.99 <input type="number" min="0" data-item-name="Butter Chicken" data-item-price="12.99"></label></li>
+                    <li class="menu-item"><label>Palak Paneer - $10.99 <input type="number" min="0" data-item-name="Palak Paneer" data-item-price="10.99"></label></li>
+                    <li class="menu-item"><label>Biryani - $11.99 <input type="number" min="0" data-item-name="Biryani" data-item-price="11.99"></label></li>
+                </ul>
+            </section>
+            <button type="submit">Place Order</button>
+        </form>
+        <div id="orderList"></div>
+    </main>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
